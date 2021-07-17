@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans"
+}
+
+html,body{
+    height: 100%;
+}
+
+@font-face{
+    src:url('../fonts/OpenSans-Light.ttf');
+    font-family: "Open Sans";
+}
+
+.limpar{
+    clear: both;
+}
+
+.principal{
+    display: flex;
+}
+
+.cabecalho{
+    width:20%;
+    height: 100%;
+    position: fixed;
+    background-color: gray;
+}
+
+.corpo{
+    position: absolute;
+    top:50%;
+    transform:translateY(-50%);
+}
+
+.img-fundo{text-align: center;}
+
+.img-fundo img{
+    position: relative;
+    margin: 20px auto;
+    width: 80%;
+    border:5px solid #D3D3D3;
+    border-radius: 50%;
+}
+
+.menu{
+    margin:20px 0;
+    text-align: center;
+    font-size: 24px;
+}
+
+.menu a{
+    color: white;
+    opacity: 0.4;
+    font-size: 75%;
+    display: block;
+    margin-bottom: 20px;
+    text-decoration: none;
+}
+
+.menu a.opcoes{
+    opacity: 1;
+    margin-top: 50px;
+}
+
+.conteudo{
+    position:absolute;
+    left: 20%;
+    width: 80%;
+    height: 100%;
+    overflow-y:auto;
+    padding:10px 3%;
+    background-color:#EEE9E9;
+}
+
+/*
+.descricao{
+    position: absolute;
+    top: 100%;
+    transform:translate(-10%,-80%);
+}
+*/
+
+.descricao h2{
+    color:  gray;
+    padding: 4px auto;
+    font-size: 46px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.descricao h2 > span{
+    color:  #8B8989;
+    padding-left: 10px;
+    text-align: center;
+}
+
+
+.descricao h3{
+    margin:15px 0;
+    color: #6c757d;
+    font-size: 26px;
+}
+
+.txt p{
+    color:#6c757d;
+    font-size:20px;
+    margin-top: 120px;
+    padding-left:8px ;
+    text-align: justify;
+}
+
+.redes-sociais{
+    margin-top:20px;
+    text-align: center;
+}
+
+.redes-sociais a{
+    text-decoration:none;
+    color: white;
+    background-color: gray;
+    width:40px;
+    height:40px;
+    border-radius:20px;
+    display: inline-block;
+    margin:0 10px;
+    text-align: center;
+    margin-top: 180px;
+}
+
+.redes-sociais i{
+    line-height:40px;
+}
+
+.rodape{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 12px;
+    border-top: 2px solid #888888;
+}
+
+.rodape p{
+    margin-top: 20px;
+    text-align: center;
+}
